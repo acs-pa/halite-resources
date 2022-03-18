@@ -9,14 +9,14 @@ Conţinutul repository-ului:
 - halite-resources.zip  - arhivă cu conținutul acestui repository
 - README.md             - acest fisier
 
-===============
+
 Prerequisites
 ===============
 
 Pentru rularea scriptului de evaluare aveți nevoie de Python (>= 3.6).
 Scriptul a fost testat pe o masina de Linux de 64 bits.
     
-===============
+
 Testare
 ===============
 
