@@ -51,9 +51,9 @@ int main(int argc, char ** argv) {
     //Remaining Args, be they start commands and/or override names. Description only includes start commands since it will only be seen on local testing.
     TCLAP::UnlabeledMultiArg<std::string> otherArgs("NonspecifiedArgs", "Start commands for bots.", false, "Array of strings", cmd);
 
-    int max_turns = maxTurnNumber.getValue();
-
     cmd.parse(argc, argv);
+    
+    int max_turns = maxTurnNumber.getValue();
 
     unsigned short mapWidth = dimensionArgs.getValue().first;
     unsigned short mapHeight = dimensionArgs.getValue().second;
